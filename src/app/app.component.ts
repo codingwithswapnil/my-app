@@ -46,7 +46,7 @@ export class AppComponent {
   }
   
   resetHobby(){
-    this.hobbies = ['Reading','Music','Coding'];
+    this.hobbies = this.defaultHobbies;
   }
   
   deleteHobby(i){
